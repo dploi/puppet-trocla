@@ -5,8 +5,8 @@
 # [Remember: No empty lines between comments and class definition]
 class trocla::master {
 
-  require rubygems::moneta
-  require rubygems::highline
+  #require rubygems::moneta
+  #require rubygems::highline
   
   package{'trocla':
       ensure   => present,
